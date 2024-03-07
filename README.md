@@ -42,13 +42,7 @@ Code.
 Below is a collection of plant names.
 Copy and paste the plants into your `my_list.txt` file.
 
-```text
-"Monstera Deliciosa"
-"Fiddle Leaf Fig"
-"Pilea"
-"Golden Pothos"
-"Peace Lily"
-```
+
 
 The material we typed into the file is called the _content_. It's the thing
 we're trying to communicate.
@@ -72,9 +66,15 @@ HTML file!
 
 Now we're going to create an HTML list together.
 
-1. Create a new file called `my_list.html`.
-2. Copy the contents of `my_list.txt` and paste them into `my_list.html`.
-3. Save the `my_list.html` file.
+1. Create a new file called ````text
+"Monstera Deliciosa"
+"Fiddle Leaf Fig"
+"Pilea"
+"Golden Pothos"
+"Peace Lily"
+````.
+2. Copy the contents of `# my_list.txt` and paste them into `my_list.html`.
+3. Save the `` file.
 4. Open the `my_list.html` file in the browser. For Mac users, you can do this
    with `open my_list.html`. For Windows users, you can do this in your Ubuntu
    app with `explorer.exe my_list.html`. Make sure you've
@@ -115,7 +115,7 @@ with `<li>` and `</li>`:
 Flip back to the **viewing tab** and refresh the page. You should see something
 like the following:
 
-![HTML file with content displayed as unordered list](https://curriculum-content.s3.amazonaws.com/phase-0/html-experiencing-html-lab/unordered_list.png)
+![HTML file with content displayed as unordered list](https://curriculum-content.s3.amazonaws.com/phase-0/html-experiencing-html-lab/unorderenpm d_list.png)
 
 **AWESOME**.
 
@@ -232,17 +232,8 @@ with an appropriate title inside.
 ```
 
 Here's the full example code:
+n
 
-```html
-<h1>My Plant List</h1>
-<p>Some of my favorite plants!</p>
-<ul>
-  <li>"Monstera deliciosa"</li>
-  <li>"Fiddle Leaf Fig"</li>
-  <li>"Pilea"</li>
-  <li>"Golden Pothos"</li>
-  <li>"Peace Lily"</li>
-</ul>
 ```
 
 ![Final Document - unordered list with Header and title ](https://curriculum-content.s3.amazonaws.com/phase-0/html-experiencing-html-lab/final_list.png)
